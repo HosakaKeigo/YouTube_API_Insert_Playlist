@@ -6,7 +6,7 @@ import { authenticate } from '@google-cloud/local-auth';
 const youtube = google.youtube('v3');
 async function main() {
   const auth = await authenticate({
-    keyfilePath: path.join(__dirname, './oauth2.keys.json'),
+    keyfilePath: path.join(__dirname, 'secrets/oauth2.keys.json'),
     scopes: ['https://www.googleapis.com/auth/youtube'],
   });
   google.options({ auth });
