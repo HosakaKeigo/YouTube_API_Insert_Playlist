@@ -8,4 +8,4 @@ YouTube Data API v3でプレイリストを作るサンプル。Node.js版。
   - Google Cloud Platformでプロジェクト作成
   - 「認証情報」にてクライアント作成
   - リダイレクト先に`http://localhost:3000/oauth2callback`を指定すること。
-- 認証情報のJSONをダウンロード。`oauth2.keys.json`としてプロジェクトルートに置く。
+- 認証情報のJSONをダウンロード。`oauth2.keys.json`として`secrets/`に置く。
